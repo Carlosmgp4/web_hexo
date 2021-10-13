@@ -1,0 +1,68 @@
+# ===========================================
+# Site Settings
+# ===========================================
+# Header
+site_title: Carlos Blog
+site_description: En este rincón de internet encontraras interesantes publicaciónes sobre el mundo de la informática.
+# ---Optional ---
+site_avatar: /images/avatar2.jpg
+artical_license_statement:
+# ---End Optional ---
+menu:
+  Inicio: /
+  Publicaciones: /archives
+  Sobre mi: /about
+
+# display widgets
+widgets:
+- archives
+- search
+#- social_links
+- recent_posts
+- tagcloud
+
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+# Content
+excerpt_link: Read More
+# favico 
+favicon: /images/avatar2.jpg
+
+# ===========================================
+# Miscellaneous Settings
+# ===========================================
+# Baidu Analytics
+baidu_analytics: 542b4962c3c4035fce9071b7c665f0d2
+# Google Analytics
+google_analytics: UA-97838175-1
+addthis_analytics: ra-5d3d630390ef40ae
+# Disqus
+disqus:
+  enable: true
+  shortname: troyyang-com
+  count: true
+# changyan
+changyan:
+  enable: false
+  appid:
+  appkey:
+# duoshuo
+duoshuo:
+  enable: false
+  shortname: Carlosmgp
+# Visitors
+leancloud_visitors:
+  enable: true
+  app_id: wzqncxgqp9MCPiPERe3gnX2Q-gzGzoHsz
+  app_key: CCtBiqyPtJWupuozt1393AXm
+
+# Search 
+# Note: please install hexo-generator-search plugin and config the root _config.yml (not theme's _config.yml) as below value search.json(https://www.npmjs.com/package/hexo-generator-search):
+#search:
+#  path: search.json
+#  field: post
+infinite:
+  enable: true
+  title1: Código documentado, vida feliz!
+  title2:
