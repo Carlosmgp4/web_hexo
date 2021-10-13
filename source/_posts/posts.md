@@ -16,3 +16,5 @@ Este blog estará dedicado a documentación de proyectos realizado en el curso d
 * Proyecto de administración de sistemas informáticos en red
 * Seguridad y alta disponibilidad
 * Servicios de red e Internet
+
+![image](/images/logo.jpeg)
